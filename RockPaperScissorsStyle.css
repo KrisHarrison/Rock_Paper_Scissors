@@ -1,0 +1,97 @@
+#titleBorder{
+  border:solid black;
+  width:990px;
+  height:100px;
+  margin:auto;
+  padding-top:50px;
+  padding-left: -40px;
+  color:white;
+}
+h1{
+  font-size: 35px;
+  text-align: center;
+}
+#ComputerTitle{
+  font-family: cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 35px;
+  color:white;
+  padding-top: 20px;
+}
+#PlayerTitle{
+  text-align: center;
+  font-family:cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-right: 40px;
+  padding-top: 66px;
+  color:white;
+}
+body{
+  background-image: url("Table.jpg");
+}
+#border{
+  float:center;
+  margin:auto;
+  border:thick solid black;
+  height:970px;
+  width:995px;
+}
+#scoreBoard{
+  float:center;
+  margin:auto;
+  color:white;
+  width:300px;
+  font-size: 30px;
+  border-spacing: 0px;
+}
+#scoreTable,#playerScore,#compScore,#ties{
+  border:thin solid black;
+  text-align: center;
+}
+#scoreBoardTitle{
+  text-align: center;
+
+}
+
+#playerTable{
+  align:right;
+  float:right;
+  margin:auto;
+  padding-right: 50px;
+}
+#computerTable{
+  float:left;
+  padding-left: 30px;
+  padding-top: 45px;
+}
+#compRock,#compPaper,#compScissors{
+  height:200px;
+  width:200px;
+  border: thick solid black;
+}
+#playerRock,#playerPaper,#playerScissors{
+  height:200px;
+  width:200px;
+  border: thick solid black;
+}
+#nextRound{
+  color:black;
+  border:thin solid black;
+  border: solid black;
+}
+#resetButton{
+  font-size: 90px;
+}
+#message{
+  text-align: center;
+  color:white;
+  padding-top: 50px;
+  font-size: 40px;
+}
+#result{
+  font-size: 50px;
+  color:black;
+}

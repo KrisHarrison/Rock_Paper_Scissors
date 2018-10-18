@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Interface for a "Rock, Paper, Scissors" app.
+Kristien Harrison, Feb 7,2017
+-->
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <meta charset = "uft-8"/>
+    <link rel="stylesheet" type="text/css" href="RockPaperScissorsStyle.css"/>
+    <script type="text/javascript" src="RockPaperScissors.js"></script>
+    <!--<script rel="javascript" type="text/javascript" scr="RockPaperScissors.js"/>... -->
+  </head>
+  <body id="border">
+    <h1 id="titleBorder">Rock Paper Scissors!</h1>
+    <div id="outer">
+      <div>
+       <table id="computerTable">
+        <tr>
+          <td id="ComputerTitle">Computer</td>
+        </tr>
+        <tr>
+          <td><img id="compRock" src="rock.jpg"></td>
+        </tr>
+        <tr>
+          <td><img id="compPaper" src="paper.jpg"></td>
+        </tr>
+        <tr>
+          <td><img id="compScissors" src="scissors.jpg"></td>
+        </tr>
+      </table>
+      </div>
+      <div>
+        <table id="playerTable">
+          <tr>
+            <td id="PlayerTitle">Player</td>
+          </tr>
+          <tr>
+            <td><img id="playerRock" onclick="myChoice(0)" src="rock.jpg"></td>
+          </tr>
+          <tr>
+            <td><img id="playerPaper" onclick="myChoice(1)"src="paper.jpg"></td>
+          </tr>
+          <tr>
+            <td><img id="playerScissors" onclick="myChoice(2)" src="scissors.jpg"></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table id="scoreBoard">
+          <tr id="scoreBoardTitle">
+            <td></td>
+            <td>Score Board</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td id="scoreTable">Player Wins</td>
+            <td id="scoreTable">Computer Wins</td>
+            <td id="scoreTable">Ties</td>
+          </tr>
+          <tr>
+            <td id="playerScore">0</td>
+            <td id="compScore">0</td>
+            <td id="ties">0</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input id="resetButton" type="button" value="Next Round" onclick="reset()"/></td>
+            <td></td>
+        </tr>
+       <div id="message">
+          <span id="result">Choose and click an image on the right side to begin!</span>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
